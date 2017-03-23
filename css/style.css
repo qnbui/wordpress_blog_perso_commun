@@ -1,8 +1,33 @@
 body main {
   background-color: #F3F3F3; }
 
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 h4 {
   color: #A2A0AD;
   font-size: 4em; }
+
+h5 {
+  color: #A2A0AD;
+  font-size: 2em; }
+
+p {
+  text-align: justify;
+  font-size: 1em;
+  padding: 1em 0 1em 0; }
+
+.nom_auteur {
+  text-align: center;
+  color: #807C95; }
+
+article {
+  margin: 4em 0 0 0; }
+
+#comm {
+  border-top: solid 3px #807C95;
+  padding-left: 0; }
 
 /*# sourceMappingURL=style.css.map */
