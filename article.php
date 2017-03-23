@@ -4,10 +4,12 @@
         <meta charset="utf-8">
 		<link rel="stylesheet" href='css/bootstrap/css/bootstrap.min.css'>
         <link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
         <title>article blog</title>
 	</head>
 	<body>
 		<main class='container'>
+		<div id='head_article'>
 			<div id='title' class='row'>
 				<div class='col-lg-offset-1 col-md-offset-1 col-lg-3 col-md-3'>
 					<img src='images/mel.png'/>
@@ -19,11 +21,11 @@
 			<div class='row'>
 				<div id='div_auteur' class='col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 text-center'>
 					<p class='nom_auteur'>nom</p>
-					<a href=''><button>Profil</button></a>
+					<a href=''>Profil</a>
 				</div>
 			</div>
 			<article>
-			
+			</div>
 			<div class='row'>
 				<div class='col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10'>
 					<p>
@@ -37,14 +39,12 @@
 			<div id="comm" class='col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10'>
 				<h5>Commentaires</h5>
 				<p>Nom auteur</p>
-				<div class='row'>
-					<div class='nom_auteur'>
+					<div>
 						<p> 
 						Bacon ipsum dolor amet burgdoggen brisket boudin rump t-bone ham cow kielbasa. Tongue tenderloin cow chicken corned beef, biltong pork chop. Kielbasa t-bone porchetta, jowl capicola andouille ribeye turkey tenderloin venison bresaola flank pork. Sausage hamburger strip steak, capicola short ribs pork tail brisket meatloaf ham hock pastrami swine. Bresaola boudin burgdoggen brisket leberkas capicola pastrami. Picanha meatloaf tongue tenderloin, brisket capicola filet mignon ball tip pig burgdoggen drumstick strip steak jerky beef. Rump doner chicken biltong hamburger fatback tail leberkas.
 						Leberkas kielbasa beef flank pastrami. Sirloin turkey strip steak prosciutto. Turducken shank boudin prosciutto sirloin drumstick jerky t-bone ribeye spare ribs cupim pork belly ground round. Sausage frankfurter brisket, strip steak sirloin landjaeger tongue burgdoggen salami tri-tip hamburger prosciutto flank pastrami alcatra.
 						</p>
 					</div>
-				</div>
 			</div>
 		</main>
 	</body>

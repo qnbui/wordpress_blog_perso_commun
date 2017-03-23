@@ -1,10 +1,11 @@
 body main {
-  background-color: #F3F3F3; }
+  background-color: #F3F3F3;
+  font-family: "Sanchez"; }
 
 #title {
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: flex-end; }
 
 h4 {
   color: #A2A0AD;
@@ -12,22 +13,49 @@ h4 {
 
 h5 {
   color: #A2A0AD;
-  font-size: 2em; }
+  font-size: 1.5em; }
 
 p {
   text-align: justify;
-  font-size: 1em;
+  font-size: 1.5em;
   padding: 1em 0 1em 0; }
 
 .nom_auteur {
   text-align: center;
-  color: #807C95; }
-
-article {
-  margin: 4em 0 0 0; }
+  font-weight: bold;
+  color: #A2A0AD;
+  text-transform: uppercase; }
 
 #comm {
   border-top: solid 3px #807C95;
-  padding-left: 0; }
+  padding-left: 0;
+  padding-right: 0; }
+
+#div_auteur {
+  padding-left: 1em; }
+
+img {
+  border: solid 5px #A2A0AD;
+  width: 12em; }
+
+a {
+  text-align: center;
+  background-color: #CAC9CF;
+  width: 100%;
+  padding: 1em 5em 1em 5em;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #A2A0AD;
+  font-weight: bold; }
+
+div#head_article {
+  background-color: #d7d9dd;
+  border-radius: 5px;
+  padding-top: 3em;
+  padding-bottom: 4em; }
+
+a:hover {
+  border: 10px solid;
+  border-image: url("../images/border.png") 1 stretch repeat; }
 
 /*# sourceMappingURL=style.css.map */
