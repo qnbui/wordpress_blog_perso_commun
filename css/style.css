@@ -46,7 +46,8 @@ a {
   border-radius: 5px;
   text-decoration: none;
   color: #A2A0AD;
-  font-weight: bold; }
+  font-weight: bold;
+  border: 10px solid transparent; }
 
 div#head_article {
   background-color: #d7d9dd;
