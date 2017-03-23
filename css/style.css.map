@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAGA,SAAU;EACT,gBAAgB,EAJP,OAAO;;AAOjB,EAAG;EACF,KAAK,EAPQ,OAAO;EAQpB,SAAS,EAAE,GAAG",
+"sources": ["style_article.scss"],
 "names": [],
 "file": "style.css"
 }

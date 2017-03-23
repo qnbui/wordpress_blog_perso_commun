@@ -2,24 +2,27 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="view/css/fram/bootstrap.min.css">
-        <link rel="stylesheet" href="view/css/style.css">
-		<link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-		<script src='view/js/popup.js'></script>
-		<script src='view/js/ajax.js'></script>
-        <script type="text/javascript" src="view/js/js.js"></script>
-        <title>Data_Project</title>
+		<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+        <link rel="stylesheet" href="css/style.css">
+        <title>article blog</title>
 	</head>
 	<body>
-		<main>
-			
-			<div>
-				
+		<main class='container'>
+			<div class='row'>
+				<div class='col-lg-2 col-md-2'>
+					<img src=''/>
+				</div>
 			</div>
-				<p>nom</p>
-				<a href=''><button>Profil</button></a>
+			<div class='row'>
+				<div class='col-lg-2 col-md-2'>
+					<p>nom</p>
+				</div>
+			</div>
+			<div class='row'>
+				<div class='col-lg-2 col-md-2'>
+					<a href=''><button>Profil</button></a>
+				</div>
+			</div>
 			<article>
 			<h4>Bacon Ipsum</h4>
 			<p>
